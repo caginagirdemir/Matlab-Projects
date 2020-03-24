@@ -20,7 +20,7 @@ cg_centroids= sortrows(cg_centroids,2);
 
 marker_num = size(cg_centroids);
 
-if marker_num < 7
+if marker_num < 7 %lost marker tracking control
 centroids_data(1,1,k) = cg_centroids(1,1);
 centroids_data(1,2,k) = cg_centroids(1,2);
 centroids_data(2,1,k) = cg_centroids(2,1);
