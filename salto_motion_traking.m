@@ -100,7 +100,7 @@ end
 
 
 end
-if k==31 %breakpoint koyarak frame yakalamak için if
+if k==31 %breakpoint koyarak frame yakalamak iÃ§in if
 end
 close
 close(aviobj);
