@@ -24,10 +24,10 @@ imshow(bw);
     stats = regionprops(L, I, 'Area', ...
 'WeightedCentroid', ...
 'Centroid', 'Perimeter');
-        y = stats(1).Centroid;%kütle merkezi
+        y = stats(1).Centroid;%kÃ¼tle merkezi
         centroid_Data(k,1) = y(1);
         centroid_Data(k,2) = y(2);
-        z = stats(1).WeightedCentroid;%agirlikli kütle merkezi  
+        z = stats(1).WeightedCentroid;%agirlikli kÃ¼tle merkezi  
        WeightedCentroid_Data(k,1) = z(1);
        WeightedCentroid_Data(k,2) = z(2);
 
