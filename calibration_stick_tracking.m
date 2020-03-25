@@ -63,30 +63,30 @@ q.MaxHeadSize = 3;
 q.ShowArrowHead = 'on';
 
 %% <<< video viconAnim.avi >>>
-% 
-% aviobj = VideoWriter('viconAnim.avi','Uncompressed AVI');
-% aviobj.FrameRate = 25;
-% open(aviobj);
-% xlim([-100 200])
-% ylim([-2500 1000])
-% zlim([0 1400])
-% axis([-100 200 -2500 1000 0 1400])
-% [mode,visibility,direction] = axis('state')
-% grid on
-% pbaspect ([1 7 5])
-% hold on
-% for i=1:708
-% 
-%     
-% X = [data_f(1,1,i) data_f(2,1,i) data_f(5,1,i)]
-% Y = [data_f(1,3,i) data_f(2,3,i) data_f(5,3,i)];
-% Z = [data_f(1,2,i) data_f(2,2,i) data_f(5,2,i)];
-% fill3(X,Y,Z,1);
-% frame = getframe(gcf);
-% writeVideo(aviobj, frame);
-% cla
-% end
-% close(aviobj);
+ 
+ aviobj = VideoWriter('viconAnim.avi','Uncompressed AVI');
+ aviobj.FrameRate = 25;
+ open(aviobj);
+ xlim([-100 200])
+ ylim([-2500 1000])
+ zlim([0 1400])
+ axis([-100 200 -2500 1000 0 1400])
+ [mode,visibility,direction] = axis('state')
+ grid on
+ pbaspect ([1 7 5])
+ hold on
+ for i=1:708
+ 
+     
+ X = [data_f(1,1,i) data_f(2,1,i) data_f(5,1,i)]
+ Y = [data_f(1,3,i) data_f(2,3,i) data_f(5,3,i)];
+ Z = [data_f(1,2,i) data_f(2,2,i) data_f(5,2,i)];
+ fill3(X,Y,Z,1);
+ frame = getframe(gcf);
+ writeVideo(aviobj, frame);
+ cla
+ end
+ close(aviobj);
 
 %% <<< yaw,pitch,row plot >>> 
 
