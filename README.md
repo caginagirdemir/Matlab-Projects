@@ -3,7 +3,7 @@ Image_processing_toolkit
 
 kick(bw).rar and viconAnim.rar included .avi file
 
-Refresh page, if you replay gif animations
+Refresh page, for replay gif animations
 
 Two ball collision detection
 
