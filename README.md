@@ -9,4 +9,10 @@ Two ball collision detection
 
 Movie Capture
 
+![Scheme](movie_capture.gif)
+
+Cloth Dynamics
+
+![Scheme](cloth_dynamics.gif)
+
 
